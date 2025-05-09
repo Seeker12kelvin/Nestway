@@ -1,3 +1,10 @@
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 * {
   margin: auto;
   padding: none;
@@ -7,7 +14,7 @@ body {
   margin: auto;
   padding: none;
   background-color: black;
-  font-family: sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 header {
@@ -153,17 +160,19 @@ input[type="search"] {
 
 #first-picture {
   height: 30em;
+  size-adjust: cover;
   width: 1000px;
   border-radius: 25px;
   display: flex;
   margin-top: 20px;
   opacity: 0.7;
+  margin-bottom: 80px;
 }
 
 .fblock {
   line-height: 50px;
   position: absolute;
-  margin-top: -278px;
+  margin-top: -358px;
   margin-left: 230px;
 }
 
@@ -176,4 +185,115 @@ input[type="search"] {
   border-radius: 8px;
   margin-top: 30px;
   background-color: white;
+  cursor: pointer;
+}
+
+.FB:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.FB:active {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.grey-box {
+  background-color: rgb(217, 217, 217, 0.2);
+  backdrop-filter: blur(5px);
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 75px;
+  font-size:  15px;
+  padding-left: 3px;
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 896px;
+}
+
+#grandma {
+  margin-left: 0px;
+}
+
+.lit {
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.litbox {
+  display: flex;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  margin-right: 80px;
+  margin-left: 160px;
+}
+
+.litbox:hover {
+  opacity: 1;
+}
+
+.litboxtwo {
+  display: flex;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  margin-left: 0px;
+  margin-right: 80px;
+}
+
+.litboxtwo:hover {
+  opacity: 1;
+}
+
+.litboxthree {
+  display: flex;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  margin-left: 0px;
+}
+
+.litboxthree:hover {
+  opacity: 1;
+}
+
+.half-color {
+  background: none;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  rotate: -60deg;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-behavior: linear ;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.half-color:hover {
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.2) white rgba(128, 128, 128, 0.2) rgba(128, 128, 128, 0.2);
+  border-right-width: 3px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  margin-right: 0px;
+}
+
+.grandpa {
+  rotate: 60deg;
+  display: flex;
+}
+
+.block {
+  display: block;
+  margin-left: 20px;
+  line-height: 19px;
+}
+
+.litlet {
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.litletext {
+  font-size: 13px;
 }

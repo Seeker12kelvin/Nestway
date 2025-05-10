@@ -217,6 +217,7 @@ input[type="search"] {
 .lit {
   display: flex;
   letter-spacing: 1px;
+  margin-bottom: 65px;
 }
 
 .litbox {
@@ -296,4 +297,86 @@ input[type="search"] {
 
 .litletext {
   font-size: 13px;
+}
+
+.tv {
+  margin-top: 65px;
+}
+
+.onetv {
+  height: 390px;
+  width: 280px;
+  background: transparent;
+  border: 1px solid #292929;
+  border-radius: 20px;
+  padding: 15px 10px 10px 10px;
+  margin-right: 0px;
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+
+.twotv {
+  height: 390px;
+  width: 280px;
+  background: transparent;
+  border: 1px solid #292929;
+  border-radius: 20px;
+  padding: 15px 10px 10px 10px;
+  margin-right: 0px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+
+.threetv {
+  height: 390px;
+  width: 280px;
+  background: transparent;
+  border: 1px solid #292929;
+  border-radius: 20px;
+  padding: 15px 10px 10px 10px;
+  letter-spacing: 1px;
+  line-height: 100%;
+  margin-left: 20px;
+}
+
+.green-borderone {
+  border: 1px solid #00A79B;
+  border-radius: 50%;
+  padding: 1px;
+  width: max-content;
+  background-color: transparent;
+  display: flex;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.green-border {
+  border: 1px solid #00A79B;
+  border-radius: 50%;
+  padding: 1px;
+  width: max-content;
+  background-color: transparent;
+  display: flex;
+  margin-right: 5px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.green-ball {
+  height: 6px;
+  width: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: #00A79B;
+}
+
+.tvwor {
+  margin-left: 10px;
+}
+
+.tvwords {
+ font-size: x-small;
+ font-weight: lighter;
 }

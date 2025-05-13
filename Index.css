@@ -301,6 +301,7 @@ input[type="search"] {
 
 .tv {
   margin-top: 65px;
+  margin-bottom: 50px;
 }
 
 .onetv {
@@ -379,4 +380,213 @@ input[type="search"] {
 .tvwords {
  font-size: x-small;
  font-weight: lighter;
+}
+
+.More {
+  padding: 10px 35px;
+  background: transparent;
+  color: white;
+  border: 1px solid #292929;
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.hard {
+  margin-bottom: 100px;
+  font-size: medium;
+  margin-left: 80px;
+}
+
+.First-un {
+  margin-right: 0px;
+  text-align: center;
+}
+
+.bottomone {
+  margin-right: 0px;
+  width: 130px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.bottomtwo {
+  margin-right: 0px;
+  margin-left: 130px;
+  width: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.bottomthree {
+  margin-right: 0px;
+  margin-left: 230px;
+  width: 90px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.bottomfour {
+  margin-right: 0px;
+  margin-left: 320px;
+  width: 110px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.bottomfive {
+  margin-right: 0px;
+  margin-left: 430px;
+  width: 110px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.bottomone:focus {
+  border-bottom: 1px solid white;
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 0px;
+  width: 130px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottomtwo:focus {
+  border-bottom: 1px solid white;
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 0px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottomthree:focus {
+  border-bottom: 1px solid white;
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 0px;
+  width: 90px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottomfour:focus {
+  border-bottom: 1px solid white;
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 0px;
+  width: 110px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottomfive:focus {
+  border-bottom: 1px solid white;
+  padding: 20px 0px 20px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 0px;
+  width: 110px;
+  color: white;
+  cursor: pointer;
+}
+
+.Second-un {
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.Third-un {
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.Fourth-un {
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.Fifth-un {
+  margin-left: 0px;
+  text-align: center;
+}
+
+.bubble {
+  border: none;
+  background-color: #212121;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-left: 510px;
+  margin-top: -6px;
+}
+
+.rollone {
+  width: 270px;
+  height: 450px;
+  background-color: #232323;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.medcir {
+  width: 45px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #303030;
+  display: flex;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  margin-top: 140px;
 }

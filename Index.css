@@ -5,6 +5,8 @@
   font-style: normal;
 }
 
+::-webkit-scrollbar{display: none;}
+
 * {
   margin: auto;
   padding: none;
@@ -87,8 +89,28 @@ li {
 
 .dropdown {
   font-size: large;
-  margin-top: -100px;
+  margin-top: -8px;
   width: 10px;
+}
+
+.dropdowyn {
+  font-size: large;
+  margin-top: -8px;
+  margin-left: 7px;
+  margin-right: 20px;
+  width: 10px;
+}
+
+.mor {
+  margin-right: 0px;
+}
+
+.mosc {
+  margin-right: 0px;
+}
+
+.login {
+  margin-right: 0px;
 }
 
 .top {
@@ -571,22 +593,176 @@ input[type="search"] {
   margin-top: -6px;
 }
 
+.roll {
+  margin-bottom: -600px;
+  padding: 0px;
+  top: 0px;
+  left: 0px;
+  margin-top: -50px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: rotate(-90deg) translateY(-830px);
+  transform-origin: right top;
+  width: 500px;
+  height: 1100px;
+  display: block;
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.40) 50%, rgb(0, 0, 0, 0.40));
+}
+
+.roll > div {
+  transform: rotate(90deg);
+  margin-left: 150px;
+  display: block;
+}
+
 .rollone {
-  width: 270px;
-  height: 450px;
+  width: 200px;
+  height: 300px;
   background-color: #232323;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 25px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  transition: 0.5s;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.rolltwo {
+  width: 200px;
+  height: 300px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0) 20%, rgb(0, 0, 0, 1)), url("Rectangle 8.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 20px;
+  border-radius: 25px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 20px 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  transition: 0.5s;
+  margin-bottom: -50px;
+}
+
+.rollthree {
+  width: 200px;
+  height: 300px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0) 20%, rgb(0, 0, 0, 1)), url("Rectangle 10.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 20px;
+  border-radius: 25px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-right: 0px;
+  padding: 20px 20px;
+  margin-left: 0px;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+.rollfour {
+  width: 200px;
+  height: 300px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0) 20%, rgb(0, 0, 0, 1)), url("Rectangle 11.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 20px;
+  border-radius: 25px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-left: 0px;
+  margin-bottom: -50px;
+  margin-top: -50px;
 }
 
 .medcir {
   width: 45px;
   height: 50px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50%;
   background-color: #303030;
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-left: 0px;
-  margin-top: 140px;
+  margin-top: 100px;
+}
+
+.black-disappear {
+  height: 500px;
+  position: fixed;
+
+}
+
+.bigpic {
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.30) 50%, rgb(0, 0, 0, 0.30)), url("Rectangle 6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30em;
+  width: 1150px;
+  margin-left: 100px;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.blocktwo {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.col {
+  transition: 0.8s;
+}
+
+.col:hover {
+  background-color: black;
+  color: white;
+}
+
+.bigpictwo {
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.40) 50%, rgb(0, 0, 0, 0.30)), url("Rectangle 7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 380px;
+  width: 880px;
+  margin-left: 120px;
+  margin-right: -60px;
+  margin-top: 30px;
+}
+
+.blockthree {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.bigpicthree {
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.40) 50%, rgb(0, 0, 0, 0.30)), url("Rectangle 5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 380px;
+  width: 880px;
+  margin-left: -40px;
+  margin-top: 30px;
+}
+
+.blockfour {
+  margin-left: 40px;
+  margin-top: 50px;
 }

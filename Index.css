@@ -831,14 +831,15 @@ input[type="search"] {
   margin-right: 0px;
 }
 
-.dotwo {
-  margin-left: -30px;
-  position: relative;
+#dotwo {
+  margin-left: 17px;
+  margin-top: 5px;
+  position: absolute;
 }
 
-.smiletwo {
-  margin-top: -50px;
-  position: relative;
+#smiletwo {
+  margin-bottom: -5px;
+  margin-left: 20px;
 }
 
 .Email {

@@ -441,6 +441,42 @@ input[type="search"] {
   position: absolute;
 }
 
+.paris {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 50px;
+  margin-top: -70px;
+  margin-left: 180px;
+  position: absolute;
+}
+
+.sta {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.star {
+  color: white;
+  border-radius: 100%;
+}
+
+.star-grey {
+  color: #2F2F2F;
+  border-radius: 100%;
+}
+
+.glass-heart {
+  height: max-content;
+  width: max-content;
+  background-color: #232323;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+  margin-top: -45px;
+  margin-left: 220px;
+}
+
 .bottomtwo {
   margin-right: 0px;
   margin-left: 130px;
@@ -768,4 +804,100 @@ input[type="search"] {
 .blockfour {
   margin-left: 40px;
   margin-top: 50px;
+}
+
+.first-foot {
+  margin-top: 100px;
+  height: 100px;
+  background-color: #1D1D1D;
+}
+
+.medcirtwo {
+  background-color: #272626;
+  padding: 15px;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+
+.second-foot {
+  margin-top: 0px;
+  height: 400px;
+  padding: 50px;
+  background-color: #232323;
+}
+
+.blocktwo {
+  line-height: 25px;
+  margin-right: 0px;
+}
+
+.dotwo {
+  margin-left: -30px;
+  position: relative;
+}
+
+.smiletwo {
+  margin-top: -50px;
+  position: relative;
+}
+
+.Email {
+  color: white;
+  width: 25em;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.medcirthree {
+  background-color: #303030;
+  padding: 15px 15px 15px 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -62px;
+  margin-left: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockthree {
+  line-height: 25px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.blockfour {
+  line-height: 25px;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.blockfive {
+  line-height: 25px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+.medcirfour {
+  background-color: #303030;
+  padding: 15px 15px 15px 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

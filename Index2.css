@@ -1,0 +1,143 @@
+@media (max-width: 375px) {
+  .plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  ::-webkit-scrollbar{display: none;}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    max-width: 375px;
+    width: 100vw;
+    scrollbar-width: none;
+    overflow-x: hidden;
+  }
+
+  body {
+    max-width: 375px;
+    width: 100vw;
+    margin: 0;
+    padding: none;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+  }
+
+  header {
+    background-color: #141414;
+    height: 3em;
+    margin: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    max-width: 375px;
+    padding: 0px;
+    top: 0;
+  }
+
+  .Content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .flex {
+    display: flex;
+    margin: 0px;
+  }
+
+  #search-bar {
+    width: 100%;
+    margin-top: -50px;
+  }
+
+  #first-picture {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .firstpa {
+    display: none;
+    color: #727272;
+    margin-left: 0px;
+    font-size: 10px;
+  }
+
+  .read {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: medium;
+  }
+
+  .list-one {
+    display: none;
+    color: white;
+    list-style: none;
+    font-size: small;
+    letter-spacing: 1px;
+  }
+
+  ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    font-size: small;
+    letter-spacing: 1px;
+  }
+
+  li {
+    margin-right: 40px;
+  }
+
+  .cur {
+    margin-right: 40px;
+  }
+
+  .currency {
+    margin-right: 8px;
+  }
+
+  .english {
+    margin-right: 8px;
+  }
+
+  .dropdown {
+    font-size: large;
+    margin-top: -8px;
+    width: 10px;
+  }
+
+  .dropdowyn {
+    font-size: large;
+    margin-top: -8px;
+    margin-left: 7px;
+    margin-right: 20px;
+    width: 10px;
+  }
+
+  .mor {
+    margin-right: 0px;
+  }
+
+  .mosc {
+    margin-right: 0px;
+  }
+
+  .login {
+    margin-right: 0px;
+  }
+
+}

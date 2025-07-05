@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
   <link href="Index.css" rel="stylesheet" type="text/css">
   <link href="Index2.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,6 +38,19 @@
     </div>
   </header>
 
+  <div class="side-bar">
+    <ul class="list-two">
+      <li>Help Center</li>
+      <li>Blog</li>
+      <div class="flex cur">
+        <li class="currency">Currency - &pound;</li> <span class="dropdown">&#8964;</span>
+      </div>
+      <div class="flex engl">
+        <li class="english">English</li><span class="dropdown">&#8964;</span>
+      </div>
+    </ul>
+  </div>
+
   <div class="Content">
     <div>
       <div class="flex top">
@@ -69,7 +82,11 @@
       </div>
       <img id="dot" src="Dot.png">
       <img id="smiley" src="Smiley.png">
-    </div>  
+      <img id="open-menu" src="menu_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg">
+      <img id="close-menu" src="close_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg">
+    </div>
+
+    </div>
 
     <div class="flex">
       <input type="search" id="search-bar" placeholder="Where do you want to go?">
@@ -391,5 +408,6 @@
 
   </div>
 
+  <script src="Index.js"></script>
 </body>
 </html>
